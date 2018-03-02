@@ -6,7 +6,7 @@ $(document).ready(function(){
 	  }
 
 	  else{
-		  $(".top-right").css("background" , "#333");
+		  $(".top-right").css("background" , "none");
 	  }
   })
 })
