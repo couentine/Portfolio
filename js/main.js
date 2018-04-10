@@ -9,4 +9,6 @@ $(document).ready(function(){
 		  $(".top-right").css("background" , "none");
 	  }
   })
-})
+});
+
+$("body").fadeIn("slow");

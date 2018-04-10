@@ -1,130 +1,34 @@
 
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
 
-}
 
-.centered {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Playball', cursive;
-    font-size: 60px;
-    font-weight: bold;
-    color:  #000000;
-}
 
 .top-right {
-  text-align: center;
-    right: 0;
-    display: inline;
-    position: fixed;
-    width:100%;
     background: #c19b6c;
-    z-index:1;
-    opacity: 0.9;
 }
 
-
-.top-right ul {
-    padding-left: 20px;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-}
-
-.top-right li {
-        float: right;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-
-}
-
-.top-right img {
-  float: left;
-}
-
-.top-right a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration:none;
-
-}
-
-.top-right a:hover:not(.active) {
-    background-color: #111;
-}
 
 .active {
     background-color: #4CAF50;
-}
-
-.skills {
-  background: white;
-  text-align: center;
-  padding-top: 2px;
-  padding-bottom: 2px;
 }
 
 .About{
   background:#ecf0f1;
   text-align: center;
   padding-top: 2px;
-  padding-bottom: 2px;
+  padding-bottom: 10px;
   padding-left: 120px;
   padding-right: 120px;
-
 }
 
 p ,h1, h2, .skills {
  font-family: 'Raleway', sans-serif;
 }
 
-
-.Portfolio{
-  background:  White;
-  text-align: center;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-.Contact{
-  background: #ecf0f1;
-  text-align: center;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-.frontend , .backend, .other {
-  display: inline-block;
-    padding: 25px
-}
-
 ul {
       list-style-type: none;
 }
 
-.top-right img {
 
-  padding-top: 5px;
-  padding-left: 5px;
-
-}
-
-.skills h4 {
-   font-size: 40px;
-        color: #c19b6c;
-}
-
-.skills li {
-  padding-top: 20px;
-}
 
 h2 {
      font-size: 50px;
@@ -132,14 +36,12 @@ h2 {
 }
 
 
-.skills h2 {
-  padding-left: 10px
+center img{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px
 }
 
-.Portfolio img {
-  padding: 10px
-}
-
-.About img {
-  padding-left: 50px
+center img:hover{
+  opacity: 0.8
 }

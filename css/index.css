@@ -19,6 +19,7 @@
 a {
   font-weight: bold;
   text-decoration:none;
+  color: black;
 }
 
 a:visited{
@@ -53,11 +54,6 @@ a:visited{
 
 }
 
-.top-right img {
-  float: left;
-}
-
-
 
 .top-right a {
     display: block;
@@ -68,7 +64,7 @@ a:visited{
 
 }
 
-.top-right a:hover:not(.active) {
+.top-right a:hover {
     background-color: #111;
 }
 
@@ -123,16 +119,11 @@ ul {
       list-style-type: none;
 }
 
-.top-right img {
 
-  padding-top: 5px;
-  padding-left: 5px;
-
-}
 
 .skills h4 {
    font-size: 40px;
-        color: #c19b6c;
+  color: #c19b6c;
 }
 
 .skills li {
@@ -156,3 +147,45 @@ h2 {
 .Contact img {
   padding-left: 25px
 }
+.Contact img:hover{
+    opacity: 0.7
+}
+
+.ph, .ph1{
+  display: inline-block;
+  float: center;
+  padding-left: 20px;
+}
+
+.ph1 img{
+  border-style: solid;
+  border-width: 1px
+}
+
+.ph:hover, .ph1:hover{
+  opacity: 0.7
+}
+
+
+
+@media (max-width: 950px) {
+  .centered {
+    display: none
+  }
+}
+
+body {
+  display: none;
+}
+
+.top-right .machine {
+  padding-bottom: -2px;
+  float: left;
+  padding: 0px;
+  margin-top: 2px;
+
+
+}
+
+.top-right .machine:hover {
+    background-color: transparent;
