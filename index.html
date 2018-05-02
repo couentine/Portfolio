@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
  <!-- By Couentine  https://github.com/couentine-->
  <head>
-
+  <meta charset="UTF-8">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105483901-1"></script>
@@ -13,37 +13,55 @@
 
      gtag('config', 'UA-105483901-1');
    </script>
-    <title>Quentin Guillaume's Portfolio</title>
-<link rel="stylesheet" type="text/css" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/index.css">
-<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Quentin Guillaume | Web Developer</title>
 
-  <meta charset="UTF-8">
+<meta name="description" content="I am Quentin Guillaume, Web Developer with a Business School Bachelor. Arrea of my expertise is HTML,CSS, JS, building Web Apps, AngularJS, Ruby, Ruby on Rails, SQL, SEO, Management and Marketing">
+<meta name="keywords" content="Quentin Guillaume,Web Developer,HTML,CSS,Ruby,JavaScript,Portfolio, San Francisco,couentine">
+<link rel="icon" type="image/x-icon" href="image/couentine.png" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/spinner.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-<body>
+<body onload="myFunction()">
+  <div id='loader'></div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
   <header>
-        <div class= 'top-right'>
+  <div class='key'>
+    <h1> Quentin Guillaume - Portfolio - Web Developer - San Francisco - couentine</h1>
+    <h1> Quentin Guillaume - Portfolio - Web Developer - San Francisco - couentine</h1>
+    <strong> Quentin Guillaume - Portfolio - Web Developer - San Francisco - couentine</strong>
+  </div>
+
+        <div class= 'top-right' id='top-right' style="opacity: 0.9">
           <ul>
-            <img class= 'machine' src="image/couentine.png" alt="Couentine" style="width: 50px">
+            <a href='/' class= 'machine'><img  src="image/couentine.png" alt="Couentine" style="width: 50px"></a>
             <li>  <a  target="_blank" href="Quentin_Guillaume.pdf" >Resume</a></li>
             <li> <a href='#Contact'>Contact </a></li>
             <li> <a href='#Porfolio'>Portfolio </a></li>
             <li> <a href='#About'>About </a></li>
-            <li> <a href='#Skills'>Skills </a></li>
+            <li> <a href='#skill'>Skills </a></li>
           </ul>
 
       </div>
+
+</header>
+
+
       <div class="container">
         <div class="intro-text">
-            <div class="centered">Quentin Guillaume
-              <br>Web Developer</div>
-              <img class= 'machine' src="image/machine.jpg" alt="frontend" style="width:100%">
+            <img class= 'machine' src="image/machine.jpg" alt="frontend" style="width:100%; opacity: 0.9">
+            <div class= 'centered5'>I am Quentin Guillaume,<div id="role"> I build
+              <br> Websites</div></div>
         </div>
     </div>
-</header>
+<div id = 'skill'>
+
   <div class = 'skills'>
-    <h2 id = Skills> Skills </h2>
+
+    <h2>Skills</h2>
     <div class = 'frontend' >
       <ul>
       <img class= 'machine' src="image/frontend-logo.png" alt="backend" style="width:150px">
@@ -73,48 +91,54 @@
         <div class = 'other' >
               <ul>
           <img class= 'machine' src="image/business.png" alt="Couentine" style="width:100px">
-    <h4 >Other</h4>
+    <h4>Other</h4>
 
       <li>Management </li>
       <li>Marketing </li>
       <li>Business Development </li>
       <li>Team Building </li>
       <li>AdWords/AdSense</li>
-      <li>French</li>
+      <li>Bilingual in French</li>
     </ul>
     </div>
 </div>
+  </div>
   <div class = 'About'>
-    <h2 id = About> About me </h2>
+    <h2 id = About>About me</h2>
     <div class= "text-about">
-    <p>I am Quentin, I moved to San Francisco in 2016 from France. <br> Formerly a seasoned hospitality manager with a degree in Business Management.
-      <br>I proactively started my professional life in the US by founding my own small international marketing company.
-       <br>Though we were profitable I have always been interested in computers and programming.
-       <br>Being in San Francisco has provided me with the opportunity to learn this skill set.
-       <br>I am currently enrolled in the Software Engineering program at Bloc. Looking to pave my way into a new career.
-       <br>I am an extremely humble and hard worker who is passionate about problem solving through innovate and efficient solutions.
+    <p>I am Quentin, I moved to San Francisco in 2016 from France.<br></p><p>  Formerly a seasoned hospitality manager with a degree in Business Management.
+      <br></p><p>I proactively started my professional life in the US by founding my own small international marketing company.
+       <br></p><p>Though we were profitable I have always been interested in computers and programming.
+       <br></p><p>Being in San Francisco has provided me with the opportunity to learn this skill set.
+       <br></p><p>I am currently enrolled in the Software Engineering program at Bloc. Looking to pave my way into a new career.
+       <br></p><p>I am an extremely humble and hard worker who is passionate about problem solving through innovate and efficient solutions.</p>
       </div>
   </div>
   <div class = 'Portfolio'>
-    <h2 id = Porfolio> Portfolio </h2>
-    <a href="movie.html" class="ph1"> <img class= 'machine' src="image/movie.jpg" alt="backend" style="width:350px"><p>Movies</p></a><br>
-    <a href="plutus.html" class="ph1"> <img class= 'machine' src="image/pltuus.JPG" alt="backend" style="width:350px"><p>Plutus Associates</p></a>
-      <a href="pong.html" class="ph"> <img class= 'machine' src="image/Pong.jpg" alt="backend" style="width:350px"><p>Pong</p></a><br>
-      <a href="arago.html" class="ph1"> <img class= 'machine' src="image/arago.png" alt="backend" style="width:350px"><p>Arago</p></a>
-      <a href="blocitoff.html" class="ph"> <img class= 'machine' src="image/blocitoff.png" alt="backend" style="width:350px"><p>Blocitoff</p></a><br>
-      <a href="blocjam.html" class="ph"> <img class= 'machine' src="image/bloc-jams.png" alt="backend" style="width:350px"><p>BlocaJam</p></a>
-      <a href="Blocmarks.html" class="ph1"> <img class= 'machine' src="image/blocmarks.png" alt="backend" style="width:350px"><p>Blockmarks</p></a><br>
-      <a href="blocipedia.html" class="ph">  <img class= 'machine' src="image/blocipedia.png" alt="backend" style="width:350px"><p>Blocipedia</p> </a>
-      <a href="rubygem.html" class="ph">    <img class= 'machine' src="image/rubygems.png" alt="backend" style="width:300px"><p>Kele</p></a>
+    <h2 id = Porfolio>Portfolio</h2>
+    <a href="movie.html" class="pic ph1"> <img class= 'machine' src="image/movie.jpg" alt="backend" style="width:450px"><span class="centered"><span>Movies</span></span></a>
+    <a href="plutus.html" class="pic ph1"> <img class= 'machine' src="image/pltuus.JPG" alt="backend" style="width:450px"><span class="centered"><span>Plutus Associates</span></span></a><br>
+      <a target="_blank" href="pong.html" class="pic ph"> <img class= 'machine' src="image/Pong.jpg" alt="backend" style="width:450px"><span class="centered"><span>Pong</span></span></a>
+      <a href="arago.html" class="pic ph1"> <img class= 'machine' src="image/arago.jpg" alt="backend" style="width:450px"><span class="centered"><span>Arago</span></span></a><br>
+      <a href="blocitoff.html" class="pic ph"> <img class= 'machine' src="image/blocitoff.png" alt="backend" style="width:450px"><span class="centered"><span>Blocitoff</span></span></a>
+      <a href="blocjam.html" class="pic ph"> <img class= 'machine' src="image/bloc-jams.png" alt="backend" style="width:450px"><span class="centered"><span>BlocJam</span></span></a><br>
+      <a href="Blocmarks.html" class="pic ph1"> <img class= 'machine' src="image/blocmarks.png" alt="backend" style="width:450px"><span class="centered"><span>Blockmarks</span></span></a>
+      <a href="blocipedia.html" class="pic ph">  <img class= 'machine' src="image/blocipedia.png" alt="backend" style="width:450px"><span class="centered"><span>Blocipedia</span></span></a><br>
+      <a href="rubygem.html" class="pic ph">    <img class= 'machine' src="image/rubygems.png" alt="backend" style="width:400px"><span class="centered"><span>Kele</span></span></a>
   </div>
     <div class = 'Contact'>
-      <h2 id = Contact> Contact </h2>
+      <h2 id = Contact>Contact</h2>
         <a target="_blank" href="https://github.com/Couentine"><img class= 'machine' src="image/github.png" alt="Couentine" style="width:100px"></a>
         <a target="_blank" href="https://www.linkedin.com/in/quentinguillaume/"><img class= 'machine' src="image/linkedin.png" alt="Couentine" style="width:100px"></a>
-        <a target="_blank" href="mailto:quent.guillaume@gmail.com"><img class= 'machine' src="image/email.png" alt="Couentine" style="width:100px">
+        <a target="_blank" href="mailto:contact@quentinguillaume.com"><img class= 'machine' src="image/email.png" alt="Couentine" style="width:100px"></a>
+          <a target="_blank" href="https://www.facebook.com/couentine/"><img class= 'machine' src="image/facebook.png" alt="facebook" style="width:100px"></a>
     </div>
-  </body>
+  </div>
+ <script src="js/spinner.js"></script>
+  <script src="js/word.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <script src="js/main.js"></script>
+   <script src="js/main.js"></script>
+  </body>
+
  <!-- By Couentine  https://github.com/couentine-->
 </html>

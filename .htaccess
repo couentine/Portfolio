@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} !^www.quentinguillaume.com$ [NC]
+RewriteRule ^(.*)$ http://www.quentinguillaume.com/$1 [L,R=301]

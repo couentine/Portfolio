@@ -1,14 +1,1 @@
-$(document).ready(function(){
-  $(window).scroll(function(){
-  	var scroll = $(window).scrollTop();
-	  if (scroll > 300) {
-	    $(".top-right").css("background" , "#c19b6c");
-	  }
-
-	  else{
-		  $(".top-right").css("background" , "none");
-	  }
-  })
-});
-
-$("body").fadeIn("slow");
+$(document).ready(function(){$(window).scroll(function(){$(window).scrollTop()>300?$(".top-right").css("background","#c19b6c"):$(".top-right").css("background","none"),$(".skills").is(":hidden")})}),$("body").fadeIn("slow"),window.addEventListener("hashchange",function(){scrollBy(0,-60)}),$("#top-right").click(function(){$("html, body").animate({scrollTop:$("#elementtoScrollToID").offset().top},2e3)});

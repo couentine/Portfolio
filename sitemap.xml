@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- www.check-domains.com sitemap generator -->
+
+<url>
+   <loc>http://quentinguillaume.com/</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>weekly</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/Quentin_Guillaume.pdf</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/movie.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/plutus.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/pong.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/arago.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/blocitoff.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/blocjam.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/Blocmarks.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/blocipedia.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/rubygem.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/index.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.8000</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/Movies/</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/blocjams/</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/Movies/index.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/blocjams/index.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+<url>
+   <loc>http://quentinguillaume.com/blocjams/collection.html</loc>
+   <lastmod>2018-04-26T17:58:13+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.5120</priority>
+</url>
+</urlset>
